@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 171996922003580788}
   - component: {fileID: 4586062206531177769}
   - component: {fileID: 8694707575393408607}
+  - component: {fileID: 2891523878772718258}
   m_Layer: 0
   m_Name: MidShield
   m_TagString: Untagged
@@ -96,3 +97,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shieldStrength: 3
+--- !u!58 &2891523878772718258
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492835209581577788}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.46

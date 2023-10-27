@@ -223,7 +223,7 @@ MonoBehaviour:
   weaponAnim: {fileID: 450063018257298672}
   headerInfo: {fileID: 2233117436616965079}
   WeaponSprite: {fileID: 450063019009017595}
-  SheildSprite: {fileID: 0}
+  SheildSprite: {fileID: 7042445855103239585}
 --- !u!1 &450063018257300238
 GameObject:
   m_ObjectHideFlags: 0

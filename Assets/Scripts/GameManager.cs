@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviourPun{
     }
 
     [PunRPC]
-    void GiveShroom(int value){
+    public void GiveShroom(int value){
         shroomCount += value;
         GameUI.instance.UpdateShroomText(shroomCount);
     }
